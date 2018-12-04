@@ -43,6 +43,9 @@ subprojects {
     dependencies {
         compile('org.springframework.boot:spring-boot-starter-web')
         testCompile('org.springframework.boot:spring-boot-starter-test')
+
+        // 4.lombok
+        compile('org.projectlombok:lombok')
     }
 }
 
