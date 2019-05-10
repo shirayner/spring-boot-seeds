@@ -10,8 +10,24 @@ spring:
     username: root
     password: root
 
+########## Mybatis 自身配置 ##########
 mybatis:
-  type-aliases-package: com.ray.study.springboot05mybatis.entity
+  type-aliases-package: com.ray.study.springboot05tkmybatis.entity
   mapper-locations: classpath:mapper/*.xml
   configuration:
     map-underscore-to-camel-case: true  # 驼峰命名规范 如：数据库字段是  order_id 那么 实体字段就要写成 orderId
+
+
+########## 通用Mapper ##########
+mapper:
+  identity: MYSQL
+  mappers: tk.mybatis.mapper.common.BaseMapper
+  not-empty: true
+  enum-as-simple-type: true
+
+########## 分页插件 ##########
+pagehelper:
+  helper-dialect: mysql
+  params: count=countSql
+  reasonable: false
+  support-methods-arguments: true

@@ -1,0 +1,11 @@
+dependencies {    
+    // mysql 驱动
+    implementation 'mysql:mysql-connector-java'
+    
+    // 通用 mapper
+    implementation 'tk.mybatis:mapper-spring-boot-starter:2.1.5'
+    
+    // mybatis 分页插件
+    implementation  'com.github.pagehelper:pagehelper-spring-boot-starter:1.2.10'
+
+}
