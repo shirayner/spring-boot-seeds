@@ -2,6 +2,6 @@ dependencies {
     // redis 依赖
     implementation 'org.springframework.boot:spring-boot-starter-data-redis'
 
-    // common pool2
+    // common pool2 ，要使用redis连接池就需要引入此包
     implementation 'org.apache.commons:commons-pool2'
 }

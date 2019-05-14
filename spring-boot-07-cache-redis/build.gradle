@@ -1,0 +1,15 @@
+dependencies {
+    // spring-boot-starter-cache
+    implementation 'org.springframework.boot:spring-boot-starter-cache'
+
+    // redis 依赖 和 common pool2 ，要使用redis连接池就需要引入此common pool2
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+    implementation 'org.apache.commons:commons-pool2'
+
+
+    // mysql 驱动和 jpa
+    implementation 'mysql:mysql-connector-java'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+
+}
