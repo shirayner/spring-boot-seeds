@@ -1,0 +1,9 @@
+dependencies {
+    // spring-boot-starter-cache  和 ehcache
+    implementation 'org.springframework.boot:spring-boot-starter-cache'
+    implementation 'net.sf.ehcache:ehcache'
+
+    // mysql 驱动和 jpa
+    implementation 'mysql:mysql-connector-java'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+}
