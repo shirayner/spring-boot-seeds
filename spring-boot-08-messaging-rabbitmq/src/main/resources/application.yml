@@ -1,0 +1,10 @@
+# 配置 rabbitmq
+spring:
+  rabbitmq:
+    publisher-confirms: true     # 是否确认发送的消息已经被消费
+
+# 自定义配置：配置两个队列
+rabbitmq:
+  queue:
+    msg: spingboot-queue-msg
+    user: spingboot-queue-user
