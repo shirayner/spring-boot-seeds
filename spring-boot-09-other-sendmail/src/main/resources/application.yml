@@ -1,0 +1,7 @@
+spring:
+  mail:
+    host: smtp.qq.com
+    username: 1766211120@qq.com
+    password: jfungayutcklfaff
+  thymeleaf:
+    mode: HTML5

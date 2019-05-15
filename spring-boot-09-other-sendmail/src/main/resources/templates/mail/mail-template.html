@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+  description  
+  @author shira 2019/05/15 22:02 
+-->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>以京东开具电子发票为例</title>
+</head>
+<body>
+<div>
+    <img src="cid:jdMailHeader" />
+</div>
+<div>
+    <h3>尊敬的 <span th:text="${to}"></span> 您好：</h3>
+
+    <p>感谢您在京东 ( JD.com ) 购物!</p>
+    <p>京东已经为您开具订单85993160742的电子普通发票，发票数量共计1张，如下:</p>
+    <p>发票代码: 031001800111 发票号码: 46049517 ，您可以点击“ 电子普通发票下载 ”获取该发票文件；</p>
+    <p>您也可以使用微信扫描如下二维码添加到微信卡包进行查看下载发票：</p>
+    <div>
+        <img src="cid:invoiceQrCode" />
+    </div>
+</div>
+
+
+
+
+</body>
+</html>
