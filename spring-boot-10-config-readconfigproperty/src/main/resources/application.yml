@@ -1,0 +1,18 @@
+server:
+  port: 8088
+  servlet:
+    context-path: /
+
+
+csdn:
+  blog:
+    name: shirayner的博客
+    homePage: https://blog.csdn.net/qq_26981333
+    articles:
+      - author: shirayner
+        title: SpringBoot_00_1_资源帖
+        url: https://blog.csdn.net/qq_26981333/article/details/89949800
+      - author: shirayner
+        title: SpringBoot_01_入门示例
+        url: https://blog.csdn.net/qq_26981333/article/details/89949895
+
