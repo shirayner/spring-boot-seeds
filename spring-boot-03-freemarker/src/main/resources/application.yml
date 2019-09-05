@@ -1,0 +1,10 @@
+server:
+  port: 8088
+  servlet:
+    context-path: /
+
+# Freemarker的配置使用上述默认配置即可，或者可设置前缀
+
+
+
+
